@@ -1,0 +1,130 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	text-align:center;
+	font-family: 'Bai Jamjuree', sans-serif;
+	padding-top:100px;
+	font-size:16px;
+	background-image:url('bg-header-desktop.png');
+	background-attachment:fixed;
+	background-position:top;
+	background-repeat:no-repeat;
+}
+.logo{
+	margin-bottom:30px;
+}
+.content{
+	width:550px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:50px;
+}
+.content h2{
+	margin-bottom:10px;
+	font-size:35px;
+}
+.content p{
+	margin-bottom:20px;
+}
+.btn .button{
+	display:inline-block;
+	margin-bottom:100px;
+	border-radius:50px;
+	color:white;
+	padding:20px 50px;
+	font-size:18px;
+}
+.btn .a:hover{
+	opacity:0.7;
+	cursor:pointer;
+}
+.btn .b:hover{
+	opacity:0.7;
+	cursor:pointer;
+}
+.a{
+	margin-right:20px;
+	background-color:hsl(171, 66%, 44%);
+	box-shadow:0px 2px 5px 2px hsl(171, 78%, 28%);
+	border:hsl(171, 66%, 44%);
+}
+.b{
+	background-color:hsl(233, 100%, 69%);
+	box-shadow:0px 2px 5px 2px hsl(240, 25%, 35%);
+	border:hsl(233, 100%, 69%);
+}
+.big{
+	display:flex;
+	margin-bottom:40px;
+}
+.image{
+	margin-right:80px;
+	margin-bottom:50px;
+}
+.one{
+	text-align:left;
+}
+.two{
+	display:flex;
+	margin-bottom:40px;
+}
+.icon{
+	display:flex;
+	margin-bottom:50px;
+}
+.icon li{
+	flex:auto;
+	list-style-type:none;
+}
+footer{
+	display:flex;
+	background-color:hsl(201, 11%, 66%, 0.5);
+	padding:50px 100px;
+}
+footer ul{
+	display:flex;
+}
+footer li{
+	list-style-type:none;
+}
+.bottom{
+	margin:0 100px 0 0;
+}
+.menu{
+	flex-wrap:wrap;
+}
+.menu li{
+	width:30%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.menu li:hover{
+	color:hsl(171, 66%, 44%);
+	cursor:pointer;
+}
+.social{
+	position:relative;
+	left:400px;
+}
+.social li{
+	margin-right:20px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.social li img:hover{
+	cursor:pointer;
+	filter: opacity(0.7) drop-shadow(0 0 hsl(171, 66%, 44%)) saturate(1000%);
+}
+.listone{
+	width:350px;
+}
+.listtwo{
+	width:350px;
+}
+.listthree{
+	width:350px;
+}
